@@ -12,6 +12,9 @@ switch (process.env.NODE_ENV) {
 	case "test":
 		config = configuration.test;
 		break;
+	case "production":
+		config = configuration.production;
+		break;
 }
 const connection = knex(config);
 

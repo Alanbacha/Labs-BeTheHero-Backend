@@ -2,9 +2,9 @@
 	"name": "labs-bethehero-backend",
 	"version": "1.0.0",
 	"description": "",
-	"main": "app.js",
+	"main": "src/server.js",
 	"scripts": {
-		"start": "nodemon src/server.js",
+		"start": "node src/server.js",
 		"test": "cross-env NODE_ENV=test jest"
 	},
 	"author": "Alan Bacha",
@@ -23,5 +23,8 @@
 		"jest": "^25.2.3",
 		"nodemon": "^2.0.2",
 		"supertest": "^4.0.2"
+	},
+	"engines": {
+		"node": "^12.x"
 	}
 }
